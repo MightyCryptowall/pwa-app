@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+.navbar a{
+  color: #fff;
+  text-decoration: none;
+  padding: 0 .5rem;
+}
+
+.navbar a:hover{
+  color: #ddd;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
